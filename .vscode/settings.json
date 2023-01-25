@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "C_Cpp.clang_format_style": "file",
+  "cmake.configureOnOpen": true,
+  "cmake.configureSettings": {
+    "CMAKE_TOOLCHAIN_FILE": "${env:VCPKG_ROOT}\\scripts\\buildsystems\\vcpkg.cmake"
+  },
+  "files.associations": {
+    "*.cl": "opencl"
+  }
+}
